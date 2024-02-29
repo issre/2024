@@ -211,6 +211,12 @@
                         <td class="rtejustify">University of Iowa</td>
                         <td class="rtejustify">USA</td>
                     </tr> 
+                    <tr>
+                        <td><img class="rounded-circle" src="images/oc-images/aihara.jpg" style="width:80px"></td>
+                        <td class="rtejustify"><a href="https://web.wakayama-u.ac.jp/~ihara/" target="_blank">Akinori Ihara</a></td>
+                        <td class="rtejustify">Wakayama University</td>
+                        <td class="rtejustify">Japan</td>
+                    </tr> 
                     <!-- <tr>
                         <th class="rtejustify" colspan="4">Special Sessions Chair (invited sessions)</th>
                     </tr>
@@ -262,17 +268,15 @@
                         <td class="rtejustify">Kindai University</td>
                         <td class="rtejustify">Japan</td>
                     </tr>
-<!--
                     <tr>
-                        <th class="rtejustify" colspan="4">Registration Chairs</th>
+                        <th class="rtejustify" colspan="4">Registration Chair</th>
                     </tr>
                     <tr>
-                        <td><img class="rounded-circle" src="images/oc-images/none.jpg" style="width:80px"></td>
-                        <td class="rtejustify"><a href="" target="_blank">TBA</a></td>
-                        <td class="rtejustify"></td>
-                        <td class="rtejustify"></td>
+                        <td><img class="rounded-circle" src="images/oc-images/kkourai.jpg" style="width:80px"></td>
+                        <td class="rtejustify"><a href="https://www.ksl.ci.kyutech.ac.jp/~kourai/" target="_blank">Kenichi Kourai</a></td>
+                        <td class="rtejustify">Kyushu Institute of Technology</td>
+                        <td class="rtejustify">Japan</td>
                     </tr>
--->
                     <tr>
                         <th class="rtejustify" colspan="4">Web Master</th>
                     </tr>
