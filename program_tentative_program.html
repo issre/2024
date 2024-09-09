@@ -75,7 +75,21 @@
                 }
 
                 .tr-top {
-                    background-color: #EFEFEF;
+                    background-color: #ffffff;
+                }
+
+                .tr-top1 {
+                    background-color: #F0F0F0;
+                }
+
+                .bold {
+                    font-weight: bold;
+                    white-space: nowrap; /* Prevent text wrapping */
+                }
+
+                .break-word {
+                    word-wrap: break-word; /* Force line break */
+                    white-space: normal;   /* Allow normal line breaks */
                 }
 
                 .workshop {
@@ -101,25 +115,68 @@
                 }
 
                 .keynote {
-                    background-color: #bad5d8; 
+                    background-color: #fff2cc; 
                     width: 22%;
                 }
 
-                .fastab {
+                .ReSAISE {
                     background-color: #fcd1d5; 
                     width: 22%;
+                    white-space: nowrap;
+                }
+
+                .AISTA {
+                    background-color: #cfe2f3; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .AIpattern {
+                    background-color: #ffffff; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .AISQ {
+                    background-color: #ffffff; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .IWSF {
+                    background-color: #ffffff; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .HFSD {
+                    background-color: #FFE599; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .WoSAR {
+                    background-color: #cfe2f3; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .ASSURE {
+                    background-color: #E6E6FA; 
+                    width: 22%;
+                    white-space: nowrap;
+                }
+
+                .WDMD {
+                    background-color: #fff2cc; 
+                    width: 22%;
+                    white-space: nowrap;
                 }
 
                 .j1c2 {
                     background-color: #cdd4ed; 
                     width: 22%;
                 }
-
-                .misc {
-                    background-color: #f9e3d4; 
-                    width: 22%;
-                }
-
                 
                 .clickable-td {
                     cursor: pointer;
@@ -129,278 +186,421 @@
                     color: #0d6efd;
                     font-weight: 600;
                 }
+
+                .day-header1 {
+                    background-color: #4682B4;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                 }
+
+                .day-header2 {
+                    background-color: #004b5c;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                 }
+
+                 .day-header3 {
+                    background-color: #800080;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                 }
+
+                 .day-header4 {
+                    background-color: #8B0000;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                 }
+
             </style>
 
             <div class="tab-content" id="program-content">
                 <div>
-                <h2 id="On-Site-program" class="page-header" style="scroll-margin-top: 75px;">Monday October 9</h2>
-                    <p>&nbsp;</p>
                     <table class="table-prog">
                         <tbody>
+                            <tr>
+                                <td colspan="11" class="day-header1">Day 1: Monday, October 28, 2024</td>
+                            </tr>
                             <tr class="tr-top">
-                                <td class="td-1 thd" ><span class="text-decoration-underline">Local Time (CET)</span></td>
-                                <td class=" thd"><span class="text-decoration-underline">Room: Orange</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Lorenzo II Magnifico</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Blue</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Green</td>
+                                <td>Start</td>
+                                <td>End</td>
+                                <td class="break-word">Duration <br> (Minutes)</td>
+                                <td colspan="2"><span class="bold">Convention Hall 200</span></td>
+                                <td><span class="bold">Rm 201A</span></td>
+                                <td><span class="bold">Rm 201B</span></td>
+                                <td><span class="bold">Rm 202A</span></td>
+                                <td><span class="bold">Rm 202B</span></td>
+                                <td><span class="bold">Rm 303</span></td>
+                                <td><span class="bold">Rm 304</span></td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">8:00 - 8:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Registration</td>
+                                <td>09:00</td>
+                                <td>10:30</td>
+                                <td>90</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td class="ReSAISE">ReSAISE 2024</td>
+                                <td class="AISTA ">AISTA 2024</td>
+                                <td class="AIpattern">AI Pattern 2024</td>
+                                <td class="WoSAR">WoSAR 2024</td>
+                                <td class="ASSURE">ASSURE 2024</td>
+                                <td class="WDMD">WDMD 2024</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>10:30</td>
+                                <td>11:00</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">MORNING COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">8:30 - 10:00</span></td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wosar.html';">WoSAR 1</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wafers.html';">WS-WAFERS 1</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_qualas.html';">WS-QuaLAS 1</td>
+                                <td>11:00</td>
+                                <td>12:30</td>
+                                <td>90</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td class="ReSAISE">ReSAISE 2024</td>
+                                <td class="AISTA ">AISTA 2024</td>
+                                <td class="AIpattern">AI Pattern 2024</td>
+                                <td class="WoSAR">WoSAR 2024</td>
+                                <td class="ASSURE">ASSURE 2024</td>
+                                <td class="WDMD">WDMD 2024</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>12:30</td>
+                                <td>14:00</td>
+                                <td>90</td>
+                                <td colspan="8" class="bold">LUNCH</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:00 - 10:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
+                                <td>14:00</td>
+                                <td>15:30</td>
+                                <td>90</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td class="ReSAISE">ReSAISE 2024</td>
+                                <td class="AISQ ">AISQ 2024</td>
+                                <td class="HFSD">HFSD 2024</td>
+                                <td class="IWSF">IWSF & SHIFT 2024 2024</td>
+                                <td class="ASSURE">ASSURE 2024</td>
+                                <td class="WDMD">WDMD 2024</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>15:30</td>
+                                <td>16:00</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">AFTERNOON COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:30 - 12:00</span></td>
-                                <td class="doctoral clickable-td" onclick="location.href='program_doctoral_symp.html';">Doctoral symposium 1</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wosar.html';">WoSAR 2</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wafers.html';">WS-WAFERS 2</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_qualas.html';">WS-QuaLAS 2</td>
+                                <td>16:00</td>
+                                <td>17:30</td>
+                                <td>90</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td class="ReSAISE">ReSAISE 2024</td>
+                                <td class="AISQ ">AISQ 2024</td>
+                                <td class="HFSD">HFSD 2024</td>
+                                <td class="IWSF">IWSF & SHIFT 2024 2024</td>
+                                <td class="ASSURE">ASSURE 2024</td>
+                                <td class="WDMD">WDMD 2024</td>
                             </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">12:00 - 13:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Lunch</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">13:30 - 15:00</span></td>
-                                <td class="doctoral clickable-td" onclick="location.href='program_doctoral_symp.html';">Doctoral symposium 2</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_iwsf_shift.html';">WS-IWSF &amp; SHIFT 1</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_reset.html';"> WS-ReSET 1</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_mlsr.html';">WS-QuaLAS 3 &amp; MLSR</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:00 - 15:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:30 - 17:30</span></td>
-                                <td class="doctoral clickable-td" onclick="location.href='program_doctoral_symp.html';">Doctoral symposium 3</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_iwsf_shift.html';">WS-IWSF &amp; SHIFT 2</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_reset.html';">WS-ReSET 2</td>
-                                <td class="td-2">&nbsp;</td>
+                            <tr class="tr-top1">
+                                <td>18:00</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td colspan="8" class="bold">RECEPTION</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+
+                <p>&nbsp;</p>
 
                 <div>
-                <h2 id="On-Site-program" class="page-header" style="scroll-margin-top: 75px;">Tuesday October 10</h2>
-                    <p>&nbsp;</p>
                     <table class="table-prog">
                         <tbody>
+                            <tr>
+                                <td colspan="11" class="day-header2">Day 2: Tuesday, October 29, 2024</td>
+                            </tr>
                             <tr class="tr-top">
-                                <td class="td-1 thd"><span class="text-decoration-underline">Local Time (CET)</span></td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Aula Magna</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Community Space</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Lorenzo II Magnifico</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Blue</td>
-                            </tr>
-
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">7:30 - 8:15</span></td>
-                                <td class="td-2 tdbg" colspan="4">Registration</td>
+                                <td>Start</td>
+                                <td>End</td>
+                                <td class="break-word">Duration <br> (Minutes)</td>
+                                <td colspan="2"><span class="bold">Convention Hall 200</span></td>
+                                <td colspan="2"><span class="bold">Rm 201</span></td>
+                                <td colspan="2"><span class="bold">Rm 202</span></td>
+                                <td colspan="2"><span class="bold">Rm 401</span></td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">8:15 - 9:00</span></td>
-                                <td class="misc">Welcome &amp; Opening</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
+                                <td>09:00</td>
+                                <td>09:15</td>
+                                <td>15</td>
+                                <td colspan="2">Conference Welcome, Opening Remarks, Day 2 Announcements, Introduce Keynote 1</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">9:00 - 10:00</span></td>
-                                <td class="keynote clickable-td" onclick="location.href='program_keynotes.html#AntoniaBertolino';">Keynote: Antonia Bertolino</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
+                                <td>09:15</td>
+                                <td>10:15</td>
+                                <td>60</td>
+                                <td colspan="2" class="keynote"><span class="bold">Keynote 1. Hiroshi Maruyama.</span> <br> Quality Assurance of AI-based Systems <br> (1 x 60min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>10:15</td>
+                                <td>10:45</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">MORNING COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:00 - 10:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
+                                <td>10:45</td>
+                                <td>12:00</td>
+                                <td>75</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Best Research Paper Candidates</span> <br> Research Track 1 <br> (3 x 25min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>12:00</td>
+                                <td>13:30</td>
+                                <td>90</td>
+                                <td colspan="8" class="bold">LUNCH</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:30 - 12:00</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_best_papers';">Research Track: <br> 3 Best Paper Candidates</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wdmd.html';">WS-WDMD 1</td>
+                                <td>13:30</td>
+                                <td>15:10</td>
+                                <td>100</td>
+                                <td colspan="2" class="ReSAISE">Association of Software Test Engineering <br> (ASTER) Special Session <br> (1 x 100min Parallel)</td>
+                                <td colspan="2" class="mainconf">Research Track 2 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="industry">Industry Track 1 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>15:10</td>
+                                <td>15:40</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">AFTERNOON COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">12:00 - 13:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Lunch</td>
+                                <td>15:40</td>
+                                <td>17:20</td>
+                                <td>100</td>
+                                <td colspan="2" class="ASSURE">Fast Abstracts <br> (9 x 10min Parallel)</td>
+                                <td colspan="2" class="mainconf">Research Track 4 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="industry">Industry Track 2 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">13:30 - 15:10</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_1';">Research Track 1: <br>Anomaly Detection I</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_2';">Research Track 2: Software Testing I</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_3';">Research Track 3: Security</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wdmd.html';">WS-WDMD 2</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:10 - 15:40</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:40 - 17:20</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_4';">Research Track 4: <br>Anomaly Detection II</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_5';">Research Track 5: Software Testing II</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_6';">Research Track 6: <br>Software Engineering for Reliability</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_wdmd.html';">WS-WDMD 3</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">18:30 - 21:00</span></td>
-                                <td class="td-2 tdbg clickable-td" colspan="4" onclick="location.href='program_social_event.html';">Reception & Social Event</td>
+                            <tr class="tr-top1">
+                                <td>18:00</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td colspan="8" class="bold">RECEPTION</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <div>
-                <h2 id="On-Site-program" class="page-header" style="scroll-margin-top: 75px;">Wednesday October 11</h2>
-                    <p>&nbsp;</p>
-                    <table class="table-prog">
-                        <tbody>
-                            <tr class="tr-top">
-                                <td class="td-1 thd"><span class="text-decoration-underline">Local Time (CET)</span></td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Aula Magna</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Community Space</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Lorenzo II Magnifico</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Blue</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">8:00 - 9:00</span></td>
-                                <td class="td-2 tdbg" colspan="4">Registration</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">9:00 - 10:00</span></td>
-                                <td class="keynote clickable-td" onclick="location.href='program_keynotes.html#RaduCalinescu';">Keynote: Radu Calinescu</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_dccs.html';">WS-DCCS 1</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:00 - 10:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:30 - 11:10</span></td>
-                                <td class="industry clickable-td" onclick="location.href='program_keynotes.html#MarcoBraccioli';">Industrial Keynote <br> Marco Braccioli</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_dccs.html';">WS-DCCS 2</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">11:10 - 12:00</span></td>
-                                <td class="industry clickable-td" onclick="location.href='program_industry.html#industry_best_papers';">Industry Track: <br>2 Best Paper Candidates</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">12:00 - 13:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Lunch</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">13:30 - 15:10</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_7';">Research Track 7:<br> Autonomous Systems</td>
-                                <td class="industry clickable-td" onclick="location.href='program_industry.html#industry_1';">Industry Track 1: <br>Software testing and <br>formal methods</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_8';">Research Track 8: Log Analysis</td>
-                                <td class="fastab clickable-td" onclick="location.href='program_fast-abstracts.html';">Fast Abstracts - Single Session</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:10 - 15:40</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:40 - 17:20</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_9';">Research Track 9:<br> Reliability of Mobile<br> software systems</td>
-                                <td class="industry clickable-td" onclick="location.href='program_industry.html#industry_2';">Industry Track 2:<br> Debugging and root cause analysis</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_10';">Research Track 10: <br>Fault Injection and <br>Root Cause Analysis</td>
-                                <td class="td-2">&nbsp;</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">20:00 - 23:00</span></td>
-                                <td class="td-2 tdbg" colspan="4">Social Dinner at Perseus Restaurant</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+
+                <p>&nbsp;</p>
 
                 <div>
-                <h2 id="On-Site-program" class="page-header" style="scroll-margin-top: 75px;">Thursday October 12</h2>
-                    <p>&nbsp;</p>
                     <table class="table-prog">
                         <tbody>
+                            <tr>
+                                <td colspan="11" class="day-header3">Day 3: Wednesday, October 30, 2024</td>
+                            </tr>
                             <tr class="tr-top">
-                                <td class="td-1 thd"><span class="text-decoration-underline">Local Time (CET)</span></td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Aula Magna</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Community Space</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Lorenzo II Magnifico</td>
-                                <td class="td-2 thd"><span class="text-decoration-underline">Room: Blue</td>
+                                <td>Start</td>
+                                <td>End</td>
+                                <td class="break-word">Duration <br> (Minutes)</td>
+                                <td colspan="2"><span class="bold">Convention Hall 200</span></td>
+                                <td colspan="2"><span class="bold">Rm 201</span></td>
+                                <td colspan="2"><span class="bold">Rm 202</span></td>
+                                <td colspan="2"><span class="bold">Rm 401</span></td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">8:00 - 9:00</span></td>
-                                <td class="td-2 tdbg" colspan="4">Registration</td>
+                                <td>09:00</td>
+                                <td>09:15</td>
+                                <td>15</td>
+                                <td colspan="2">Day 3 Announcements, Introduce Keynote 2</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">9:00 - 10:00</span></td>
-                                <td class="keynote clickable-td" onclick="location.href='program_keynotes.html#GiulianoCasale';">Keynote: Giuliano Casale</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
+                                <td>09:15</td>
+                                <td>10:15</td>
+                                <td>60</td>
+                                <td colspan="2" class="keynote"><span class="bold">Keynote 2. Kae Nemoto.</span> <br> Quantum Circuit Compilation and Compression <br> (1 x 60min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>10:15</td>
+                                <td>10:45</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">MORNING COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:00 - 10:30</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
+                                <td>10:45</td>
+                                <td>12:00</td>
+                                <td>75</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Best Industry Paper Candidates</span> <br> Industry Track 3 <br> (3 x 25min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>12:00</td>
+                                <td>13:30</td>
+                                <td>90</td>
+                                <td colspan="8" class="bold">LUNCH</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">10:30 - 12:10</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_11';">Research Track 11: <br> Deep Learning and <br>Deep Neural Networks</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_12';">Research Track 12: <br>Smart Contract Vulnerability Detection</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_13';">Research Track 13: <br>Fault detection, localization, and prediction</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_resaise.html';">WS-ReSAISE 1</td>
+                                <td>13:30</td>
+                                <td>14:15</td>
+                                <td>45</td>
+                                <td colspan="2" class="keynote"><span class="bold">Keynote 3. Yennun Huang.</span> <br> AI Trustworthiness <br> (1 x 45min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">12:10 - 13:40</span></td>
-                                <td class="td-2 tdbg" colspan="4">Lunch</td>
+                                <td>14:15</td>
+                                <td>14:40</td>
+                                <td>25</td>
+                                <td colspan="2">Test of Time Awardee <br> (1 x 25min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">13:40 - 15:20</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_14';">Research Track 14:<br> Large Language Models and Reliability</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_15';">Research Track 15:<br> Vulnerability Analysis &amp; Fuzzing</td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_16';">Research Track 16: Program Analysis</td>
-                                <td class="td-2">&nbsp;</td>
+                                <td>14:40</td>
+                                <td>15:10</td>
+                                <td>30</td>
+                                <td colspan="2">Huawei Special Session <br> (1 x 30min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>15:10</td>
+                                <td>15:40</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">AFTERNOON COFFEE BREAK</td>
                             </tr>
                             <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:20 - 15:50</span></td>
-                                <td class="td-2 tdbg" colspan="4">Coffee Break</td>
+                                <td>15:40</td>
+                                <td>17:20</td>
+                                <td>100</td>
+                                <td colspan="2" class="industry">Industry Track 4 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf">Research Track 5 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="ASSURE">Doctoral Symposium Track <br> (3 x 10min) <br>  Doctoral Symposium Panel <br> (1 x 70min)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
                             </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">15:50 - 17:30</span></td>
-                                <td class="mainconf clickable-td" onclick="location.href='program_research.html#research_17';">Research Track 17: AI and Reliability</td>
-                                <td class="j1c2 clickable-td" onclick="location.href='program_j1c2.html';">J1C2-Track</td>
-                                <td class="j1c2 clickable-td" onclick="location.href='test_of_time.html';">Test-of-Time Award presentation</td>
-                                <td class="workshop clickable-td" onclick="location.href='wk_program_resaise.html';">WS-ReSAISE 2</td>
-                            </tr>
-                            <tr>
-                                <td class="td-1"><span class="text-decoration-underline">17:30 - 18:00</span></td>
-                                <td class="misc">Closing &amp; Business Meeting</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
-                                <td class="td-2">&nbsp;</td>
+                            <tr class="tr-top1">
+                                <td>18:00</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td colspan="8" class="bold">BANQUET</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+
+                <p>&nbsp;</p>
+
+                <div>
+                    <table class="table-prog">
+                        <tbody>
+                            <tr>
+                                <td colspan="11" class="day-header4">Day 4: Thursday, October 31, 2024</td>
+                            </tr>
+                            <tr class="tr-top">
+                                <td>Start</td>
+                                <td>End</td>
+                                <td class="break-word">Duration <br> (Minutes)</td>
+                                <td colspan="2"><span class="bold">Convention Hall 200</span></td>
+                                <td colspan="2"><span class="bold">Rm 201</span></td>
+                                <td colspan="2"><span class="bold">Rm 202</span></td>
+                                <td colspan="2"><span class="bold">Rm 401</span></td>
+                            </tr>
+                            <tr>
+                                <td>09:00</td>
+                                <td>09:15</td>
+                                <td>15</td>
+                                <td colspan="2">Day 4 Announcements, Introduce Keynote 4</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>09:15</td>
+                                <td>10:15</td>
+                                <td>60</td>
+                                <td colspan="2" class="keynote"><span class="bold">Keynote 4. David Lo.</span> <br> TBD <br> (1 x 60min Plenary)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>10:15</td>
+                                <td>10:45</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">MORNING COFFEE BREAK</td>
+                            </tr>
+                            <tr>
+                                <td>10:45</td>
+                                <td>12:00</td>
+                                <td>75</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 6 + J1 C2 Track <br> (1 x 25min + 2 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 7 <br> (3 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 8 <br> (3 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 9 <br> (3 x 25min Parallel)</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>12:00</td>
+                                <td>13:30</td>
+                                <td>90</td>
+                                <td colspan="8" class="bold">LUNCH</td>
+                            </tr>
+                            <tr>
+                                <td>13:30</td>
+                                <td>15:10</td>
+                                <td>100</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 10 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 11 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 12 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 13 <br> (4 x 25min Parallel)</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>15:10</td>
+                                <td>15:40</td>
+                                <td>30</td>
+                                <td colspan="8" class="bold">AFTERNOON COFFEE BREAK</td>
+                            </tr>
+                            <tr>
+                                <td>15:40</td>
+                                <td>17:20</td>
+                                <td>100</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 14 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 15 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="mainconf"><span class="bold">Research Track 16 <br> (4 x 25min Parallel)</td>
+                                <td colspan="2" class="tdbg">&nbsp;</td>
+                            </tr>
+                            <tr class="tr-top1">
+                                <td>17:20</td>
+                                <td>17:30</td>
+                                <td>10</td>
+                                <td colspan="8" class="bold">CONFERENCE CLOSING</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
 
             
